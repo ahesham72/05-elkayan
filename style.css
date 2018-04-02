@@ -1,0 +1,366 @@
+/*Strat Header*/
+
+#head {
+  
+    background:
+    linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.8)),
+    url('header.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 647px;
+    position: relative;
+    top: 0;
+    bottom: 0;
+     
+}
+
+.text-head {
+    text-align: center;
+    margin-top: auto ;
+}
+.text-head h1 {
+    color:white;
+    font-size: 80px;
+    font-weight: bold;
+    line-height: 350px  ;
+    
+
+}
+.text-head h1 span {
+    color:#F7B21D;
+    text-shadow:0 4px #464646
+}
+.text-head h3 {
+    letter-spacing: 2px;
+    color:white;
+    
+
+}
+.text-head p {
+    letter-spacing: 2px;
+    color:white;
+
+}
+
+.text-head button {
+    background: #F7B21D;
+    border: 1px solid #F7B21D;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    transition: all .7s;
+    color:white;
+    box-shadow: 1px;
+    border-radius: 2px
+
+
+
+}
+.text-head button:hover {
+    background: rgb(59, 58, 58);
+    border : 1px solid rgb(59, 58, 58);
+    color:white;
+
+}
+
+/* End Header*/
+
+/* Strat Artical Abuot Us*/
+#about {
+    background-color: #F6F6F6;
+    text-align: center;
+    padding:50px 0 80px 0 ; 
+}
+#about h1 {
+    margin:60px 0 30px 0;
+    
+}
+#about hr {
+
+    width: 70px;
+    height: 4px;
+    position: relative;
+    background: #F7B21D;
+    border: 0;
+    margin-bottom: 80px
+
+}
+
+#about h4 {
+    text-align: left;
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: 0
+}
+#about p {
+    text-align: left;
+    color:rgb(88, 87, 87);
+    margin-bottom: 25px
+}
+ #about li {
+    text-align: left;
+
+ }
+
+
+/* End Artical Abuot Us*/
+
+/* Start Artical OUR SERVICES */
+#our-services{
+    background:  linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.5)),
+    url('img/services.jpg') ;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:white;
+    padding-top: 15px;
+    padding-bottom:100px
+}
+#our-services h1{
+    text-align: center;
+    margin: 50px auto 30px auto
+}
+ #our-services hr {
+
+    width: 70px;
+    height: 4px;
+    position: relative;
+    background: #F7B21D;
+    border: 0;
+    margin-bottom: 80px
+
+}
+
+
+#our-services .services i {
+    color:#F7B21D;
+    font-size: 40px;
+    margin: 25px;
+    text-align: center
+}
+#our-services .services  {
+    text-align: center
+}
+
+#our-services .services h3  {
+    margin: 20px
+}
+
+#our-services .services p {
+    color:rgb(216, 214, 214)
+}
+/* end Start Artical OUR SERVICES */
+
+/* Start  Artical OUR team */
+
+#our-team {
+    background-attachment: fixed;
+    text-align: center;
+    padding:50px 0 100px 0 ;
+    background-color: #E6E6E6;
+
+}
+#our-team img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    border: 2px solid white;
+    background-color: #f6f6f6
+} 
+
+#our-team h1 {
+    padding-top: 10px
+}
+#our-team hr {
+
+    width: 70px;
+    height: 4px;
+    position: relative;
+    background: #F7B21D;
+    border: 0;
+    margin-bottom: 50px
+
+}
+#our-team  .meet p {
+    padding-bottom: 10px;
+    
+}
+
+
+/* end  Artical OUR team */
+
+/* Start LEARNING PATHS */
+#learn {
+    background-attachment: fixed;
+    text-align: center;
+    padding:50px 0 100px 0 ;
+    background-color:#F6F6F6
+    
+}
+#learn h1 {
+    padding-top: 10px;
+    margin-bottom: 25px
+}
+#learn hr {
+
+    width: 70px;
+    height: 4px;
+    position: relative;
+    background: #F7B21D;
+    border: 0;
+    margin-bottom: 50px
+
+}
+#learn p {
+    padding-bottom: 10px;
+    
+}
+#learn button {
+    background: #F7B21D;
+    border: 1px solid #F7B21D;
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: all .7s;
+    color:white;
+    box-shadow: 1px;
+    border-radius: 2px
+
+
+
+}
+#learn button:hover {
+    background: rgb(59, 58, 58);
+    border : 1px solid rgb(59, 58, 58);
+    color:white;
+}
+    #learn .touch-face {
+      margin-top: 25px
+  }  
+  #learn span {
+      color :#425F9C;
+      font-weight: bold
+  }
+
+/* End LEARNING PATHS */
+
+
+
+/* Start JOIN OUR TEAM */
+#join  {
+    background-attachment: fixed;
+    text-align: center;
+    padding:50px 0 100px 0 ;
+    
+}
+#join  h1 {
+    padding-top: 10px;
+    margin-bottom: 25px
+}
+#join hr {
+
+    width: 70px;
+    height: 4px;
+    position: relative;
+    background: #F7B21D;
+    border: 0;
+    margin-bottom: 50px
+
+}
+#join p {
+    padding-bottom: 10px;
+    
+}
+#join button {
+    background: #F7B21D;
+    border: 1px solid #F7B21D;
+    margin: 10px;
+    padding: 10px 15px;
+    font-size: 20px;
+    transition: all .7s;
+    color:white;
+    box-shadow: 1px;
+    border-radius: 2px
+
+
+
+}
+#join button:hover {
+    background: rgb(59, 58, 58);
+    border : 1px solid rgb(59, 58, 58);
+    color:white;}
+  
+/* End JOIN OUR TEAM */
+
+
+/* Start Contact Us */
+
+#contact-us  {
+    text-align: center;
+    background: #F6F6F6
+}
+#contact-us hr{
+    width: 70px;
+    height: 4px;
+    position: relative;
+    background: #F7B21D;
+    border: 0;
+    margin-bottom: 50px
+}
+#contact-us p{
+    padding-bottom: 50px;
+    text-align: center;
+    color:#777
+}
+ 
+#contact-us button {
+    background: rgb(59, 58, 58);
+    border : 1px solid #F7B21D;
+    background: #F7B21D;
+    margin:10px ;
+    padding: 10px;
+    width: 150px;
+    font-size: 18px;
+    transition: all .7s;
+    color:white;
+    box-shadow: 1px;
+    border-radius: 2px;
+    margin-bottom: 50px
+}
+#contact-us   button:hover {
+        background: rgb(59, 58, 58);
+        border : 1px solid rgb(59, 58, 58);
+        color:white;}
+
+
+/*End contact Us */
+
+
+     /* Start footer */
+
+footer {
+    background: #333333;
+    color:#777;
+    text-align: center;
+    padding:;
+
+}
+footer p {
+    font-size: 16px;
+    padding: 25px;
+    margin: 0
+}
+
+
+
+
+
+
+
+
+
+
+
+
